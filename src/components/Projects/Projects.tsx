@@ -25,7 +25,7 @@ const Projects = ({ id }: ProjectsProps) => {
         'Integrated with third-party logistics providers',
         'Custom reporting dashboard for executives'
       ],
-      image: '/assets/projects/AcumaticaCloudERP.png'
+      image: `${import.meta.env.BASE_URL}assets/projects/AcumaticaCloudERP.png`
     },
     {
       title: 'Acumatica Report Designer',
@@ -37,7 +37,7 @@ const Projects = ({ id }: ProjectsProps) => {
         'Real-time financial reporting',
         'Integration with banking APIs'
       ],
-      image: '/assets/projects/AcumaticaReportDesigner.png'
+      image: `${import.meta.env.BASE_URL}assets/projects/AcumaticaReportDesigner.png`
     }
   ]
 

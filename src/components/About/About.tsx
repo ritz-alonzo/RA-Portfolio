@@ -81,7 +81,7 @@ const About = ({ id }: AboutProps) => {
           <div className="about-sidebar">
             <div className="profile-card">
               <div className="profile-image">
-                <img src="/assets/Corporate-RitzAlonzo.png" alt="Profile" />
+                <img src={`${import.meta.env.BASE_URL}assets/Corporate-RitzAlonzo.png`} alt="Profile" />
                 {/* <div className="profile-overlay">
                   <span className="status-indicator"></span>
                 </div> */}

@@ -13,7 +13,7 @@ const Hero = ({ id }: HeroProps) => {
   }
 
   const downloadResume = () => {
-    window.open('/assets/Alonzo CV 2026.pdf', '_blank')
+    window.open(`${import.meta.env.BASE_URL}assets/Alonzo CV 2026.pdf`, '_blank')
   }
 
   return (
