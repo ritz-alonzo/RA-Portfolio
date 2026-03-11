@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:gh-pages": "tsc && vite build --base=/portfolio/",
+    "build:gh-pages": "tsc && vite build --base=/RA-Portfolio/",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
