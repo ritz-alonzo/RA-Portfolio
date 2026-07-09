@@ -35,6 +35,8 @@ const Skills = ({ id }: SkillsProps) => {
     { name: 'Performance Optimization', level: 85, category: 'Database' },
     
     // Frontend
+    { name: 'Angular', level: 88, category: 'Frontend' },
+    { name: 'Typescript', level: 80, category: 'Frontend' },
     { name: 'JavaScript', level: 88, category: 'Frontend' },
     { name: 'jQuery', level: 85, category: 'Frontend' },
     { name: 'AJAX', level: 83, category: 'Frontend' },
@@ -48,8 +50,10 @@ const Skills = ({ id }: SkillsProps) => {
     { name: 'Git & GitHub', level: 90, category: 'Tools' },
     { name: 'Visual Studio 2022', level: 92, category: 'Tools' },
     { name: 'Postman', level: 85, category: 'Tools' },
+    { name: 'NUnit', level: 87, category: 'Tools' },
+    { name: 'Playwright', level: 87, category: 'Tools' },
     { name: 'AGILE Methodology', level: 87, category: 'Tools' },
-    { name: 'Code Review', level: 88, category: 'Tools' }
+    { name: 'Code Review', level: 88, category: 'Tools' },
   ]
 
   const categories = ['Backend', 'ERP', 'Database', 'Frontend', 'Tools']

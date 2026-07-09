@@ -17,27 +17,54 @@ const Projects = ({ id }: ProjectsProps) => {
   const projects: Project[] = [
     {
       title: 'Acumatica Cloud ERP',
-      description: 'Custom Acumatica ERP implementation for a manufacturing company with 500+ users. Developed custom modules for production planning, inventory management, and quality control.',
+      description: 'Customized Standard Acumatica ERP implementation for Financing, Real Estate, Manufacturing and Agriculture companies. Implemented custom modules, workflows, and business logic layers to meet specific client requirements.',
       technologies: ['Acumatica', 'C#', 'ASP.NET', 'SQL Server', 'Web API', 'Github'],
       highlights: [
-        'Reduced order processing time by 40%',
-        'Automated inventory tracking and reordering',
-        'Integrated with third-party logistics providers',
-        'Custom reporting dashboard for executives'
+        'Customized multiple Acumatica modules including Financials, Inventory, and CRM',
+        'Created new modules using Acumatica Framework to handle unique business processes',
+        'Integrated with third-party applications',
+        'Custom Generic Inquiries & Dashboard creation for real-time data insights and integrate via OData and REST API'
       ],
+      link: 'https://www.acumatica.com/',
       image: `${import.meta.env.BASE_URL}assets/projects/AcumaticaCloudERP.png`
     },
     {
       title: 'Acumatica Report Designer',
-      description: 'Developed a comprehensive financial management solution with Acumatica customizations for accounts payable/receivable, budgeting, and multi-currency support.',
+      description: 'Developed a comprehensive financial management reporting with Acumatica customizations for accounts payable/receivable, budgeting.',
       technologies: ['Acumatica', 'C#', 'Entity Framework', 'SQL Server', 'Github'],
       highlights: [
         'Multi-currency transaction processing',
         'Automated invoice matching and approval workflows',
-        'Real-time financial reporting',
-        'Integration with banking APIs'
+        'Real-time financial reporting'
       ],
+      link: 'https://www.acumatica.com/',
       image: `${import.meta.env.BASE_URL}assets/projects/AcumaticaReportDesigner.png`
+    },
+    {
+      title: 'RAerp',
+      description: 'ERP application (currently work in progress) using ASP.NET Core 8, Entity Framework Core, and SQL Server.',
+      technologies: ['C#', 'ASP.NET Core', 'ASP.NET Core Web API', 'SQL Server', 'Entity Framework Core', 'JavaScript', 'HTML', 'CSS', 'AJAX', 'JQuery', 'Github', 'MVC'],
+      highlights: [
+        'Modular based Application',
+        'Created new modules using Acumatica Framework to handle unique business processes',
+        'Integrated with third-party applications',
+        'Custom Generic Inquiries & Dashboard creation for real-time data insights and integrate via OData and REST API'
+      ],
+      link: 'https://raerpv1.runasp.net/',
+      image: `${import.meta.env.BASE_URL}assets/projects/raerpv1-monsterasp.png`
+    },
+    {
+      title: 'RAerp Angular v20 App',
+      description: 'Ecommerce Angular App (currently work in progress) using ASP.NET Core 8.0 Web API, Entity Framework Core, and SQL Server.',
+      technologies: ['Angular v20', 'Typescript', 'ASP.NET Core Web API', 'SQL Server', 'JavaScript', 'HTML', 'CSS', 'JQuery', 'Github'],
+      highlights: [
+        'Ecommerce web application',
+        'Created new modules using Acumatica Framework to handle unique business processes',
+        'Integrated with third-party applications',
+        'Custom Generic Inquiries & Dashboard creation for real-time data insights and integrate via OData and REST API'
+      ],
+      link: 'https://raerpv1-app.netlify.app/',
+      image: `${import.meta.env.BASE_URL}assets/projects/raerpv1-angular-app-netlify.png`
     }
   ]
 
